@@ -47,4 +47,7 @@ git remote -v
 
 
 para subir el repo a la nube
-git push origin master
+git push -u origin master
+
+
+BENDITO ME ESTABA FALTANDO EL -u para que funcionara en el primer repo1
