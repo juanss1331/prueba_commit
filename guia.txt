@@ -1,0 +1,50 @@
+Todo se realiza desde la consola de comandos (CMD) Parado en cualquier carpeta
+
+
+Comando para configurar un nombre de usuario GIT de forma global.
+git config --global user.name "JuanSepulveda"
+
+Comando para configurar un correo de usuario GIT de forma global.
+git config --global user.email juanss1331@gmail.com
+
+
+Todo se realiza desde la consola de comandos (CMD) Parado en la carpeta que se creará el repositorio
+git init
+
+
+Para visualizar que se ha creado una carpeta .git
+dir /a
+
+se crea un archivo en la carpeta puede ser un .txt y para agregarlos usar:
+git add guia.txt
+
+para visualizar el estado de los archivos usar
+git status
+lo que esta en verde es porque se le puede hacer commit lo que esta en rojo necesita un git add
+
+siempre estar mirando los estados (hay 3 pueden buscarlos)
+
+
+para agregar todo de golpe se usa:
+git add --all
+
+
+para hacer commit
+git commit -m "ejemplo inicial de git con una guia adicional"
+
+para visualizar al estado de los commit se usa:
+git log
+
+
+para sincronizar con la nube:
+git remote add origin LINKDELREPOCREADOENGITHUB
+ese origin es como el nombre que se e esta dando al reositorio de lla nube de forma local
+pero por convecion se usa origin
+
+para mirar que el repositorio remoto si funcione bien.
+git remote -v
+
+
+
+para subir el repo a la nube
+git push origin master
